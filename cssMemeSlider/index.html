@@ -5,44 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cssMemeSlider</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main>
-      <div class="slider">
-        <div class="slider-mems">
-          <div class="mems-wrap">
-            <img class="mem" src="./img/mem_01.jpg" alt="img-1" />
-            <img class="mem" src="./img/mem_02.webp" alt="img-2" />
-            <img class="mem" src="./img/mem_03.webp" alt="img-3" />
-            <img class="mem" src="./img/mem_04.webp" alt="img-4" />
-          </div>
+    <main class="slider">
+      <div class="slider-mems">
+        <div class="mems-wrap">
+          <img class="mem" src="./img/mem_01.jpg" alt="img-1" />
+          <img class="mem" src="./img/mem_02.webp" alt="img-2" />
+          <img class="mem" src="./img/mem_03.webp" alt="img-3" />
+          <img class="mem" src="./img/mem_04.webp" alt="img-4" />
         </div>
-        <div class="slider-titles">
-          <div class="titles-wrap">
-            <p class="mem-title">Mem</p>
-            <p class="mem-title">Memasik</p>
-            <p class="mem-title">Ischo memasik</p>
-            <p class="mem-title">Vse Mem</p>
-          </div>
+      </div>
+      <div class="slider-titles">
+        <div class="titles-wrap">
+          <p class="mem-title">Mem</p>
+          <p class="mem-title">Memasik</p>
+          <p class="mem-title">Ischo memasik</p>
+          <p class="mem-title">Vse Mem</p>
         </div>
-        <div class="slider-dots">
-          <input type="radio" id="mem-1" checked />
-          <label for="mem-1">
-            <span></span>
-          </label>
-          <input type="radio" id="mem-2" />
-          <label for="mem-2">
-            <span></span>
-          </label>
-          <input type="radio" id="mem-3" />
-          <label for="mem-3">
-            <span></span>
-          </label>
-          <input type="radio" id="mem-4" />
-          <label for="mem-4">
-            <span></span>
-          </label>
-        </div>
+      </div>
+      <div class="slider-dots">
+        <input type="radio" id="mem-1" name="radio" checked />
+        <label for="mem-1">
+          <span></span>
+        </label>
+        <input type="radio" id="mem-2" name="radio" />
+        <label for="mem-2">
+          <span></span>
+        </label>
+        <input type="radio" id="mem-3" name="radio" />
+        <label for="mem-3">
+          <span></span>
+        </label>
+        <input type="radio" id="mem-4" name="radio" />
+        <label for="mem-4">
+          <span></span>
+        </label>
       </div>
     </main>
   </body>
