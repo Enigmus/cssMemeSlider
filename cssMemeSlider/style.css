@@ -32,7 +32,8 @@ body {
   justify-content: center;
   width: 80vw;
   max-width: 60em;
-  padding: 5em;
+  padding: 4em;
+  padding-bottom: 3em;
   border-radius: 2em;
   border: .08em solid var(--color-border);
 }
@@ -164,4 +165,23 @@ input:checked+label>span {
 
 .slider:has(#mem-4:checked) .titles-wrap p {
   transform: translateY(-300%);
+}
+
+@media (max-width: 1023px) {
+  .slider-titles{
+    order: 1;
+    width: 100%;    
+  }
+
+  .slider-dots {    
+    width: 100%;
+    margin-top: 2em;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 499px) {
+  html{
+    font-size: 0.7em;
+  }
 }
